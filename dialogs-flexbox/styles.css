@@ -1,0 +1,25 @@
+section {
+  background-color: papayawhip;
+  width: 300px;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  color: gray;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #dc3d4d;
+}

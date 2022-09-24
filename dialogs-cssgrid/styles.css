@@ -1,0 +1,32 @@
+section {
+  background-color: papayawhip;
+  border-radius: 6px;
+  padding: 20px;
+  width: 300px;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "text text text"
+    "side footer footer";
+}
+
+h1 {
+  grid-area: header;
+  margin: 0px;
+}
+
+p {
+  grid-area: text;
+  color: gray;
+}
+
+footer {
+  grid-area: footer;
+  justify-self: end;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #dc3d4d;
+}
